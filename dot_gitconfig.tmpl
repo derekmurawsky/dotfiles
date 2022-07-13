@@ -1,0 +1,14 @@
+# This is Git's per-user configuration file.
+[user]
+name = Derek Murawsky
+email = {{ .email }}
+[init]
+	defaultBranch = main
+[core]
+	editor = code --wait
+[commit]
+	template = {{ .chezmoi.homeDir }}/.config/git/gitmessage
+[pull]
+	rebase = true
+[push]
+	autoSetupRemote = true

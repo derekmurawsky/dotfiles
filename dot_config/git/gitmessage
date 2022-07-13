@@ -1,0 +1,28 @@
+# <type>[optional scope]: <description>         #
+
+
+
+#######################################################################
+# Common types are: feat & fix                                        #
+# Other types are: build, ci, docs, perf, refactor, style, test       #
+# You can indicate a breaking change with an `!` after the type/scope #
+# Yes, the blank line separating the summary from the body is critical#
+# Wrap lines in the body at 72 chars                                  #
+#                                                                     #
+# Explain the problem that this commit is solving. Focus on *why* you #
+# are making this change as opposed to how (the code explains that).  #
+# Are there side effects or other unintuitive consequences of this    #
+# change? Here's the place to explain them.                           #
+#                                                                     #
+# If you use an issue tracker, put references to them at the bottom   #
+# using the git trailers format                                       #
+# https://git-scm.com/docs/git-interpret-trailers                     #
+# Resolves: #123                                                      #
+# See also: #456, #789                                                #
+#                                                                     #
+# You can also indicate a breaking change in the footer               #
+# BREAKING CHANGE: <description>                                      #
+#                                                                     #
+# Adapted from https://www.conventionalcommits.org/en/v1.0.0/ &       #
+# https://cbea.ms/git-commit/                                         #
+#######################################################################
